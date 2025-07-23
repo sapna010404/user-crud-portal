@@ -1,0 +1,86 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.HomePage {
+    font-variant: small-caps;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.247);
+}  
+
+.HomePage:hover{
+    height: 28%;
+    width: 44%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.425);
+}
+
+/* Center all heading tags */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color:rgb(76, 11, 114);
+}
+
+table{
+    border-radius: 10px;
+    margin: 0 auto;
+     text-align: center;
+}
+
+th{
+    background-color: rgba(98, 9, 150, 0.671);
+    height: 2.5rem;   
+    color: white;
+}
+
+tr{
+    height: 2rem;
+    margin: 5px;
+    background-color: rgba(224, 208, 208, 0.384);
+    padding: 10px;
+}
+
+button{
+    margin: 10px;
+    font-weight: 400;
+    height: 30px;
+    cursor: pointer;
+    border:none;
+    background-color: rgba(98, 9, 150, 0.178);
+    transition: background-color 0.3s ease;
+    border-radius: 6px;
+}
+
+button:hover{
+    background-color: rgba(98, 9, 150, 0.692);
+    color: #f7f7f7;
+}
+
+
+.formDiv{
+    border:none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(128, 0, 128, 0.2);
+    width: 30%;
+    margin: 30px auto;
+}
+
+.formDiv input{
+    height:2rem;
+    margin:5px;
+    border:solid rgba(98, 9, 150, 0.692) 0.5px;
+    border-radius: 5px;
+}
+
+.formDiv button{
+    width: 70%;
+}
