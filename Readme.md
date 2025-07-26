@@ -39,11 +39,19 @@ A simple user management system built using **Node.js**, **Express**, **MySQL**,
 
 - 📋 Create a new user
 - 👀 View all registered users
-- ✏️ Edit user details
-- ❌ Delete a user (with password check)
+- ✏️ Edit user details (with password check for verification)
+- ❌ Delete a user (with password confirmation)
 - 📈 Homepage shows total user count
 
 ---
+
+## 🔐 Security
+- Password is required to confirm identity before editing or deleting a user.
+- This basic auth mechanism ensures that only the rightful user can modify or remove their data.
+
+
+---
+
 
 ## 📥 Installation & Setup
 
@@ -89,7 +97,11 @@ Open your browser and go to:
 
 ## 📸 Screenshots
 
-_Add a few screenshots here later if you'd like._
+![alt text](/assets/image.png)
+![alt text](/assets/image-1.png)
+![alt text](/assets/image-2.png)
+![alt text](/assets/image-3.jpg)
+![alt text](/assets/image-4.png)
 
 ---
 
@@ -115,13 +127,6 @@ This project helped reinforce:
 
 ---
 
-## 📃 License
-
-MIT License
-
----
-
 ## ✨ Acknowledgements
-
-Inspired by Apna College's backend learning journey 🙌  
+ 
 Made with ❤️ by [Sapna](https://github.com/sapna010404)
